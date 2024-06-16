@@ -1,0 +1,16 @@
+source 'https://cdn.cocoapods.org/'
+
+
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'FileTransporter_Example' do
+  pod 'FileTransporter', :path => '../'
+
+  target 'FileTransporter_Tests' do
+    inherit! :search_paths
+
+
+  end
+end
